@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(223, 219, 219);
+}
+$color-black: #000;
+.signup {
+  position: absolute;
+  background-color: rgba(235, 226, 226, 0.692);
+  box-shadow: 0 10px 20px rgba($color-black, 0.15);
+  padding: 70px;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__heading {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  &__box {
+    margin: 0 auto;
+  }
+  &__mail-top {
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border: 1px solid black;
+    height: 34px;
+    width: 200px;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+  &__mail-middle {
+    border: 1px solid black;
+    height: 34px;
+    width: 200px;
+    padding-left: 10px;
+  }
+  &__mail-bottom {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 1px solid black;
+    height: 34px;
+    width: 200px;
+    padding-left: 10px;
+  }
+  &__remember {
+    margin-left: 40px;
+    margin-top: 17px;
+  }
+  &__btn {
+    box-shadow: 0 10px 20px rgba($color-black, 0.15);
+    border-radius: 3px;
+    height: 34px;
+    width: 200px;
+    background-color: #0069ed;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 17px;
+  }
+  &__copyright {
+    text-align: center;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.success {
+  background-color: rgb(168, 167, 167);
+  border-bottom: 2px solid black;
+  padding: 30px;
+  position: relative;
+  height: 200px;
+}
+.success__box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.success__heading {
+  font-size: 60px;
+}
+.success__para {
+  margin-top: 30px;
+  font-size: 30px;
+}
